@@ -11,10 +11,14 @@ namespace Calculator
     class Calculator
     {
         public static void Main(string[] args)
-        {   
-            ICalculator<int> icalc = new IntegerCalculator(); 
-            Console.WriteLine(icalc.Add(1,2));
-            Console.Read();
+        {
+            Console.WriteLine("Please enter your operations below:");
+            while (true)
+            {
+                Console.Write('>');
+                Console.ReadLine();
+            }
+            
         }
     }
 }

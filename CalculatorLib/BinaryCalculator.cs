@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CalculatorLib
 {
-    class Binary
+   public class Binary
     {
         private int _value;
 
@@ -38,32 +38,35 @@ namespace CalculatorLib
             return new Binary(a._value * b._value);
         }
         public static Binary operator /(Binary a, Binary b)
-        {
+        {   
             return new Binary(a._value / b._value);
         }
-
+        public override string ToString()
+        {
+            return Convert.ToString(this._value,2);
+        }
     }
-    class BinaryCalculator : ICalculator<Binary>
+    public class BinaryCalculator : ICalculator<Binary>
     {
 
         public Binary Add(Binary a, Binary b)
         {
-            throw new NotImplementedException();
+            return a + b;
         }
 
         public Binary Subtract(Binary a, Binary b)
         {
-            throw new NotImplementedException();
+            return a - b;
         }
 
         public Binary Multiply(Binary a, Binary b)
         {
-            throw new NotImplementedException();
+            return a * b;
         }
 
         public Binary Divide(Binary a, Binary b)
         {
-            throw new NotImplementedException();
+            return a / b; 
         }
     }
 }
