@@ -1,0 +1,7 @@
+c:\users\meet.shah\documents\visual studio 2013\Projects\ClassLibrary1\Calculator\bin\Debug\Calculator.exe
+c:\users\meet.shah\documents\visual studio 2013\Projects\ClassLibrary1\Calculator\bin\Debug\Calculator.pdb
+c:\users\meet.shah\documents\visual studio 2013\Projects\ClassLibrary1\Calculator\bin\Debug\CalculatorLib.dll
+c:\users\meet.shah\documents\visual studio 2013\Projects\ClassLibrary1\Calculator\bin\Debug\CalculatorLib.pdb
+c:\users\meet.shah\documents\visual studio 2013\Projects\ClassLibrary1\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+c:\users\meet.shah\documents\visual studio 2013\Projects\ClassLibrary1\Calculator\obj\Debug\Calculator.exe
+c:\users\meet.shah\documents\visual studio 2013\Projects\ClassLibrary1\Calculator\obj\Debug\Calculator.pdb
