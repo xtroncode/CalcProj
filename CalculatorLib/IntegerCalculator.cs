@@ -25,9 +25,29 @@ namespace CalculatorLib
 
         public int Divide(int a, int b)
         {
+            if (b == 0)
+            {
+                Console.WriteLine("Cannot perform division by zero.");
+                return 0;
+            }
             return a / b;
         }
 
-
+        public int eval(string a, string op, string b)
+        {
+            switch (op)
+            {
+                case "+":
+                    return Add(Convert.ToInt32(a), Convert.ToInt32(b));
+                case "-":
+                    return Subtract(Convert.ToInt32(a), Convert.ToInt32(b));
+                case "*":
+                    return Multiply(Convert.ToInt32(a), Convert.ToInt32(b));
+                case "/":
+                    return Divide(Convert.ToInt32(a), Convert.ToInt32(b));
+                default:
+                    return 0;
+            }
+        }
     }
 }

@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Binary.cs" />
     <Compile Include="BinaryCalculator.cs" />
     <Compile Include="ICalculator.cs" />
     <Compile Include="IntegerCalculator.cs" />

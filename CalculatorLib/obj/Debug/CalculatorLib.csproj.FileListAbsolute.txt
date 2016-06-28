@@ -1,4 +1,3 @@
-c:\users\meet.shah\documents\visual studio 2013\Projects\ClassLibrary1\CalculatorLib\obj\Debug\CalculatorLib.csprojResolveAssemblyReference.cache
 c:\users\meet.shah\documents\visual studio 2013\Projects\ClassLibrary1\CalculatorLib\bin\Debug\CalculatorLib.dll
 c:\users\meet.shah\documents\visual studio 2013\Projects\ClassLibrary1\CalculatorLib\bin\Debug\CalculatorLib.pdb
 c:\users\meet.shah\documents\visual studio 2013\Projects\ClassLibrary1\CalculatorLib\obj\Debug\CalculatorLib.dll
